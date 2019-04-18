@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}
+
+/* first_task */
+
+.first_task{
+  width: 800px;
+  margin: 0 auto;
+  background: green;
+  height: 100%;
+}
+
+/* first_task_ends */
+
+/* second_task */
+.container{
+  width: 80%;
+  min-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.container div{
+  width: 100%;
+}
+.container .first {
+  background: red;
+}
+.container .second {
+  background: green;
+}
+.container .third {
+  background: orange;
+}
+
+/* second_task_ends */
+
+/* third_task */
+
+.container_center{
+  margin: 0 auto;
+  width: 800px;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid green;
+}
+
+.container_center .content{
+  width: 200px;
+  height: 200px;
+  background: red;
+}
+
+/* third_task_ends*/
+
+
+/* fourth_task */
+.container_responsive {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100%;
+  display: flex;
+}
+ 
+.col-1 {
+ flex: 1;
+ height: 200px;
+ background: red;
+}
+ 
+.col-2 {
+ flex: 3;
+ height: 200px;
+ background: green;
+}
+
+/* fourth_task_ends */
+
+/* fifth_task */
+
+.container_fifth{
+  height: 100%;
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1 0 auto;
+  background: red;
+  width: 300px;
+}
+ 
+footer {
+  flex: 0 0 auto;
+}
+
+/* fifth_task ends*/
