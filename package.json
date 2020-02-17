@@ -10,7 +10,8 @@
     "cors": "^2.8.5",
     "express": "^4.16.4",
     "node-fetch": "^2.3.0",
-    "nodemon": "^1.18.10"
+    "nodemon": "^1.18.10",
+    "opencv": "^6.2.0"
   },
   "devDependencies": {
     "ts-node": "^8.0.3",
@@ -20,7 +21,8 @@
     "ts": "nodemon -x ts-node ./test.ts",
     "server": "nodemon --watch server/server.js -r @babel/register  server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch"
+    "start": "webpack --watch",
+    "task": "nodemon --harmony ./test.js"
   },
   "author": "",
   "license": "ISC"
