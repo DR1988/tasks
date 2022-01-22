@@ -9,7 +9,7 @@
     "@babel/register": "^7.4.0",
     "cors": "^2.8.5",
     "express": "^4.16.4",
-    "node-fetch": "^2.3.0",
+    "node-fetch": "^3.1.1",
     "nodemon": "^1.18.10",
     "opencv": "^6.2.0"
   },
